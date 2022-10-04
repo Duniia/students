@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementation of objectlist</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="members" href="members.json">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <h2>Members</h2>
+    <div id="output"></div>
+    <div id="error"></div>
+    <!-- <img src="morten.png">
+    <img src="olivia.png" >
+    <img src="nina.png"> -->
+
+    <!-- <script src="data.js"></script> -->
+    <script src="javascript.js"></script>
+    
+    <script>        
+    //asking the browser if it supports service wrker
+        if ('serviceWorker' in navigator) {
+          console.log("serviceworker is working")
+          navigator.serviceWorker.register('/students/serviceworker.js');
+      } else {
+          console.log("not working")
+      }</script>
+</body>
+
+</html>
+

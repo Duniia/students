@@ -1,0 +1,21 @@
+{
+    "name": "List of members",
+    "short-name": "Memberlist",
+    "description": "This app shows members",
+    "display": "standalone",
+    "background-color":"#FFFFFF",
+    "theme-color": "#d676ff",
+    "icons": [
+        {
+            "src": "icon-192.png",
+            "sizes": "192x192",
+            "Type": "image/png"
+        },
+        {
+            "src": "icon-512.png",
+            "sizes": "512x512",
+            "Type": "image/png"
+        }
+    ],
+    "start_url": "/students/index.html"
+}
